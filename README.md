@@ -47,20 +47,24 @@ $ pnpm run start:prod
 
 ## Start Commands for docker-compose file
 
-Build, (re)creates, starts, and attaches to containers for a service.
-`docker-compose up`
+```bash
+# Build, (re)creates, starts, and attaches to containers for a service.
+$ docker-compose up
+```
 
 ## Start Commands for Docker
 
-Build your image:
-`docker build <your path> -t <<user>/project-name>`
+```bash
+# Build your image:
+$ docker build <your path> -t <<user>/project-name>
 
-Run:
-`docker run -p 8080:3000 <<user>/project-name`
+# Run:
+$ docker run -p 8080:3000 <<user>/project-name
 
-For Example
-`docker build <your path> -t john-doe/nestjs-clean-architecture`
-`docker run -p 8080:3000 john-doe/nestjs-clean-architecture`
+# For Example
+$ docker build <your path> -t john-doe/nestjs-clean-architecture
+$ docker run -p 8080:3000 john-doe/nestjs-clean-architecture
+```
 
 ## Test
 
