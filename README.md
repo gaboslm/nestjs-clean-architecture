@@ -55,14 +55,18 @@ $ docker-compose up
 ## Start Commands for Docker
 
 ```bash
-# Build your image:
-$ docker build <your path> -t <<user>/project-name>
+# build your image
+$ docker build \<your path\> -t \<\<user\>/project-name\>
+```
 
-# Run:
-$ docker run -p 8080:3000 <<user>/project-name
+```bash
+# run:
+$ docker run -p 8080:3000 \<\<user\>/project-name
+```
 
-# For Example
-$ docker build <your path> -t john-doe/nestjs-clean-architecture
+```bash
+# for example
+$ docker build \<your path\> -t john-doe/nestjs-clean-architecture
 $ docker run -p 8080:3000 john-doe/nestjs-clean-architecture
 ```
 
