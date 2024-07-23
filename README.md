@@ -56,17 +56,17 @@ $ docker-compose up
 
 ```bash
 # build your image
-$ docker build \<your path\> -t \<\<user\>/project-name\>
+$ docker build <your path> -t <<user>/project-name>
 ```
 
 ```bash
 # run:
-$ docker run -p 8080:3000 \<\<user\>/project-name
+$ docker run -p 8080:3000 <<user>/project-name
 ```
 
 ```bash
 # for example
-$ docker build \<your path\> -t john-doe/nestjs-clean-architecture
+$ docker build <your path> -t john-doe/nestjs-clean-architecture
 $ docker run -p 8080:3000 john-doe/nestjs-clean-architecture
 ```
 
