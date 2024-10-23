@@ -5,6 +5,7 @@ import { PaymentModule } from '@/contexts/payments'
 @Module({
   imports: [
     ConfigModule.forRoot({
+      isGlobal: true,
       envFilePath: ['.env.development.local', '.env.development'],
     }),
     PaymentModule,
